@@ -42,6 +42,17 @@ header {
   font-weight:bold;
   letter-spacing:2px;
 }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.brand img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
 
 nav a {
   color:white;
@@ -194,8 +205,10 @@ footer strong { color:var(--gold); }
 <body>
 
 <header>
-  <div class="brand">HEBRI</div>
-
+  <div class="brand">
+  <img src="HEBRI_Crest_Only.png" alt="HEBRI Crest">
+  <span>HEBRI</span>
+</div>
   <nav>
     <a href="#about">About</a>
     <a href="#baker">Henry E. Baker</a>
